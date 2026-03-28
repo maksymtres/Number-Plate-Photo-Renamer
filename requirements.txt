@@ -1,0 +1,8 @@
+opencv-python
+pytesseract
+pandas
+openpyxl
+numpy
+pillow
+streamlit
+notebook

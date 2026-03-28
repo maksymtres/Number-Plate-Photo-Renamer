@@ -1,0 +1,11 @@
+services:
+  photo-renamer:
+    build: .
+    container_name: photo-renamer
+    ports:
+      - "8503:8503"
+    volumes:
+      - ./:/app
+      - ./input_photos:/data/photos
+    environment:
+      - TESSERACT_CMD=/usr/bin/tesseract
